@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-7 text-center">
+
+        <img src="{% static '50271-doron-conteudo.gif' %}" width="400" height="400" alt="" class="d-inline-block align-top">
+
+        <br><br>
+
+        <h1>Welcome to TodoList</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex error voluptatibus molestiae tenetur accusamus atque corporis. In odio commodi eius ipsam corrupti sunt repudiandae, voluptate, dolorum tenetur quas dicta.</p>
+
+        <a href="{% url 'signupuser' %}" class="btn btn-primary btn-lg">Start</a>
+
+    </div>
+</div>
+
+
+
+{% endblock %}
