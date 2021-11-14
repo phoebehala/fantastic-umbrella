@@ -1,0 +1,13 @@
+<h1>signup</h1>
+<form action="" method="POST">   <!-- by default is get request  -->
+    {% csrf_token %}
+
+     <!-- working-with-form-templates -->
+    {{ form.as_p }} 
+
+    <!--{{form}}   adding a variable
+                   {'form':UserCreationForm()} from views.py-->
+    <button type="submit">Submit</button>
+
+
+</form>
